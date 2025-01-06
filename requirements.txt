@@ -1,1 +1,2 @@
-
+## BIBLIOTECAS INSTALAR 
+> -m pip install flask (FLASK)
