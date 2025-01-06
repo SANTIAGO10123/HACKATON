@@ -1,5 +1,3 @@
-# portfolio-esp
-
 # HACKATON
 ## Esta es la idea de mi proyecto:
 > Pagina web que hable sobre el cambio climatico incluyendo noticias internacionales.
