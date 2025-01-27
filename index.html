@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -7,126 +7,175 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
     <link rel="stylesheet" href="../static/css/style.css" />
-    <title>Portafolio</title>
+    <title>ECO ALEGRIA</title>
+    <link rel="icon" href="../static/img/icono_eco.png" />
+  
   </head>
   <body>
     <header class="header">
       <nav class="header__nav main-nav">
         <ul class="main-nav__list main-list">
           <li class="main-list__item list-item">
-            <a class="list-item__link" href="#home">HOME</a>
+            <a class="list-item__link" href="#entrada">INICIO</a>
           </li>
           <li class="main-list__item list-item">
-            <a class="list-item__link" href="#about">ABOUT</a>
+            <a class="list-item__link" href="#about">SOBRE ECO ALEGRIA</a>
           </li>
           <li class="main-list__item list-item">
-            <a class="list-item__link" href="#skills">MY SKILLS</a>
+            <a class="list-item__link" href="#skills">CONTENIDO</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#feedback">COMENTARIOS</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main">
-      <!-- Vista previa -->
-      <section class="main__home home" id="home">
-        <h1 class="home__title">NAME SURNAME</h1>
-        <p class="home__subtitle">WEB-DEVELOPER, PYTHON PROGRAMMER</p>
+      <!-- Bienvenida a la pagina -->
+      <section class="main__entrada entrada" id="entrada">
+        <h1 class="entrada__title">BIENVENIDO A</h1>
+        <p class="entrada__subtitle">LA MEJOR PAGINA WEB SOBRE CUIDADO AL MEDIO AMBIENTE</p>
       </section>
-      <!-- Acerca de mí -->
+      <!-- sobre nosotros -->
       <section class="main__about about" id="about">
-        <h2 class="about__title">ABOUT ME</h2>
+        <h2 class="about__title">SOBRE NOSOTROS</h2>
         <div class="about__info info-block">
-          <p class="info-block__text">
-            Soy un chico muy creativo y dedicado con respecto a la programacion, he creado varios bocetos y  diseños de paginas, de diferentes temáticas, tipos, colores y diseños, he estudiado varias ramas de la programación pidiendo asi adquirir múltiples conocimientos y experiencias a lo largo de mi carrera, orgulloso y feliz de ser programador
-          </p>
+          <div class="info-block__text">
+            Bienvenidos a nuestra página web dedicada al <b>cuidado ambiental.</b> Este espacio ha sido creado con el propósito de fomentar la conciencia y el compromiso hacia la preservación de nuestro entorno. <br> <br><br> <strong>OBJETIVO</strong> <br><br> Nuestra página está <strong>100%</strong> enfocada en el cuidado ambiental. Aquí, nos proponemos: <br> <br> <strong>-</strong> Proporcionar contenido informativo sobre diversas temáticas relacionadas con el <b>medio ambiente.</b> <br> <br> <strong>-</strong> Ofrecer recursos educativos que permitan a los visitantes comprender la importancia de cuidar <b>nuestro planeta.</b> <br> <br> <strong>-</strong> Brindar apoyo a todas aquellas personas interesadas en contribuir positivamente al <b>medio ambiente.</b>  <br> <br> <br> <strong>CONCLUSION </strong> <br> <br> Agradecemos su visita y esperamos que encuentren en nuestra página la información y las herramientas necesarias para involucrarse en la protección del medio ambiente. <b>Su interés y participación son fundamentales para lograr un cambio significativo.</b></div>
+           
           <img
             class="info-block__img"
-            src="https://i.pinimg.com/564x/df/24/83/df248343848c45dfb9d2c4c4e41009bd.jpg"
-            alt="me"
-            width="800"
-            height="400"
+            src="../static/img/tierra3d.png"
+            alt="medio ambiente"
+            width=auto ;
+            height="700"
           />
         </div>
       </section>
       <!-- Sección de competencias -->
       <section class="main__skills skills" id="skills">
-        <h2 class="skills__title">MY SKILLS</h2>
+        <h2 class="skills__title">CONTENIDO</h2>
         <form action="/" method="POST">
           <ul class="skills__list skills-list">
             <li class="skills-list__skill skill">
               <img
                 class="skill__img"
-                src="../static/img/python.png"
+                src="../static/img/youtubelogo.png"
                 alt="python"
                 width="150"
-                height="150"
+                height="140"
               />
-              <span class="skill__info">Skill info</span>
-              <input class="skill__button" type="submit" name="button_python" value="SHOW PROJECT">
+              <span class="skill__info"><b>Videos informativos</b></span>
+              <input class="skill__button" type="submit" name="button_python" value="MOSTRAR">
             </li>
             <li class="skills-list__skill skill">
               <img
                 class="skill__img"
-                src="../static/img/discord.png"
+                src="../static/img/facebooklogo.png"
                 alt="discord"
-                width="150"
-                height="150"
+                width="137"
+                height="auto ;
               />
-              <span class="skill__info">Skill info</span>
-              <input class="skill__button" type="submit" name="button_discord" value="SHOW PROJECT">
+              <span class="skill__info"><b>Publicaciones <br>sobre el ecosistema</b></span>
+              <input class="skill__buttonn" type="submit" name="button_discord" value="MOSTRAR">
             </li>
             <li class="skills-list__skill skill">
               <img
                 class="skill__img"
-                src="../static/img/html.png"
+                src="../static/img/spotifylogo.png"
                 alt="html"
-                width="150"
-                height="150"
+                width="130"
+                height="auto ;"
               />
-              <span class="skill__info">Skill info</span>
-              <input class="skill__button" type="submit" name="button_html" value="SHOW PROJECT">
+              <span class="skill__info"><b>Algunos podcast </b></span>
+              <input class="skill__buttonnn" type="submit" name="button_html" value="MOSTRAR">
             </li>
             <li class="skills-list__skill skill">
               <img
                 class="skill__img"
-                src="../static/img/db.webp"
+                src="../static/img/trespuntoslogo.png" 
                 alt="SQL"
-                width="150"
+                width="130"
                 height="150"
               />
-              <span class="skill__info">Skill info</span>
-              <input class="skill__button" type="submit" name="button_db" value="SHOW PROJECT">
+              <span class="skill__info"><b>Centros de donación</b></span>
+              <input class="skill__buttonnnn" type="submit" name="button_db" value="MOSTRAR">
             </li>
           </ul>
         </form>
         {% if button_python%}
           <div class="skills__project project" id="project">
-              <img class="project__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="project" width="500">
-              <a class="project__link" href="">Abierto en GitHub</a>
+              <img class="project__img" src="../static/img/youtubelogo.png" alt="project" width="480">
+              <div style="text-align: center; gap: 80px; ">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PG_SSR_6H6c?si=XoCS1-vqW44kIKof" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YWLLeZzVAZU?si=SxnWoponZRMOIlSR" title="La importancia del cuidado ambiental" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Gpc1s9qSeVM?si=rAF05chuCbJWMU47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PXwbGfxX0iw?si=jOkjKN5wHrVB5XDH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZSl4BePAqAg?si=Sr153__TGv1qmQZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YiHTNfKJwAw?si=dJ8w7_m2gEL0CniZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/z4vHLa36Wsg?si=dYKUAy4UfGYy_reK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <a class="project__link" href="https://youtube.com/playlist?list=PL3Leh3PueE3tBtxAfGOrpwRQcLFzV1rLI&feature=shared">Ver mas videos en YouTube</a>
           </div>
         {% endif %}
         {% if button_discord%}
           <div class="skills__project project" id="project">
-              <img class="project__img" src="https://static.vecteezy.com/system/resources/previews/018/930/718/original/discord-logo-discord-icon-transparent-free-png.png" alt="project" width="500">
-              <a class="project__link" href="">Abierto en GitHub</a>
+              <img class="project__img" src="../static/img/facebooklogo.png" alt="project" width="450">
+              <div style="text-align: center; gap: 80px; ">
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCIEASevilla%2Fposts%2Fpfbid02enN1c8hDhRkwpLcmCc3ti4jkss8kSrkjokHXDGD7s3S4xz21ARMBBrZvvw2yTRNWl&show_text=true&width=500" width="500" height="646" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Funep.es%2Fposts%2Fpfbid035ZgG8gQBowiCQEs8otGCFhD9zAEboLa6hAoRqqRxzRiE9Li7g8mLhjvBsqrkQYHfl&show_text=true&width=500" width="500" height="665" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCIEASevilla%2Fposts%2Fpfbid02sKV2KVignV6P4ShoRmXHn5GnsJxuaXcPbXoQZMTxDE3bh18iVejp1mH67pamgjxml&show_text=true&width=500" width="500" height="729" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Funep.es%2Fposts%2Fpfbid09ZkXXo1bTeUaEHiaj3GMrQrAGBVt7NR8AXUNuKJwKoRZTScyis512yMpuLSY6QWvl&show_text=true&width=500" width="500" height="710" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Funep.es%2Fposts%2Fpfbid02ZocSuWpCvw1FMJyyKFm2zw6iaC1z6dQbbdHS1bCcFy74DjdgooKjSna9fe4Z4hpel&show_text=true&width=500" width="500" height="787" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Funep.es%2Fposts%2Fpfbid028teq21v7fxGKCaPPhufy9firxfBwRYUU968AfaMmLVmkVgyB7Y6GPAbXpfw3SrKDl&show_text=true&width=500" width="500" height="710" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              </div>
+              <a class="project__link" href="https://www.facebook.com/unep.es?locale=es_ES">Noticias mas recientes AQUI</a>
           </div>
         {% endif %}
         {% if button_html%}
           <div class="skills__project project" id="project">
-              <img class="project__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="project" width="500">
-              <a class="project__link" href="">Abierto en GitHub</a>
+              <img class="project__img" src="../static/img/spotifylogo.png" alt="project" width="500">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1F47qzb5Vb5z2NHMa1yh6i?utm_source=generator&t=0" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1S7hWLamfWFApHPGC0hHOY?utm_source=generator&t=0" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5coY4tOOI2vmZkIfurEqy7?utm_source=generator&t=0" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0kgeBI0KVYSbWxPJEPlM6X?utm_source=generator&t=0" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1RpNNFp3ecabb9lrgFRw7o?utm_source=generator&t=0" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <a class="project__link" href="https://open.spotify.com/search/CUIDADO%20AMBIENTAL/podcastAndEpisodes">Aca puedes encontrar mas podcast sobre el cuidado ambiental</a>
           </div>
         {% endif %}
         {% if button_db%}
           <div class="skills__project project" id="project">
-              <img class="project__img" src="https://cdn-icons-png.flaticon.com/512/30/30240.png" alt="project" width="500">
-              <a class="project__link" href="">Abierto en GitHub</a>
+              <img class="project__img" src="../static/img/trespuntoslogo.png"  alt="project" width="500">
+              <div class="skill-project_text">
+                <b>AQUI HAY ALGUNOS CENTROS DE DONACION SOBRE EL CUIDADO AMBIENTAL:</b><br><br><br> <b>ONG IIDMA (Instituto Internacional de Derecho y Medio Ambiente)</b> <br><br> IIDMA trabaja en la defensa del medio ambiente utilizando herramientas legales. Tu donación ayuda a continuar su labor en la promoción de políticas ambientales efectivas:<a class="project__linkk" href="https://iidma.org/donaciones/">MAS INFORMACION AQUI </a>
+              </div>
+              <img class="project__img" src="../static/img/naturalezalogo.png" alt="project" width="480">
+              <div class="skill-project_text">
+                <b>ECOLOGISTA EN ACCION</b> <br> <br> Esta asociación de ámbito estatal se dedica a la defensa del medio ambiente y la justicia social. Las donaciones son deducibles hasta un 80% en impuestos, lo que la convierte en una opción atractiva para los donantes:<a class="project__linkk" href="https://www.ecologistasenaccion.org/participa/haz-una-donacion/">MAS INFORMACION AQUI</a>
+              </div>
+              <img class="project__img" src="../static/img/naturalezalogouno.png" alt="project" width="480">
+              <div class="skill-project_text">
+                <b>WWF ESPAÑA</b> <br><br> WWF es una de las organizaciones más grandes y reconocidas a nivel mundial en la defensa de la naturaleza. Su visión es ambiciosa y busca proteger el medio ambiente a largo plazo:<a class="project__linkk" href="https://www.wwf.es/">MAS INFORMACION AQUI</a>
+              </div>
+              <img class="project__img" src="../static/img/naturalezalogodos.png" alt="project" width="480">
+              <div class="skill-project_text">
+                <b>EL FONDO PARA EL AGUA LIMPIA</b> <br><br> surgió durante los primeros días del moderno movimiento medioambiental nacional en la década de 1970. La organización aboga no sólo por el agua limpia, sino también por un aire limpio y espacios vitales libres de exposición a tóxicos. Con sede en Washington, D.C. y oficinas regionales en otros estados, el grupo se esfuerza por cultivar un fuerte liderazgo medioambiental a nivel de base, a la vez que involucra a diversos grupos para trabajar juntos hacia un cambio positivo en la justicia medioambiental y la salud pública:<a class="project__linkk" href="https://cleanwaterfund.org">MAS INFORMACION AQUI</a>
+
+
+              </div>
+              <img class="project__img" src="../static/img/naturalezalogotres.png" alt="project" width="520">
+
+
+              <a class="project__link" href="https://www.conservamospornaturaleza.org/accion/dona/">MAS CENTROS DE DONACION</a>
           </div>
+          
         {% endif %}
       </section>
       <!-- Formulario de contacto -->
       <section class="main__feedback feedback" id="feedback">
-        <h2 class="feedback__title">FEEDBACK</h2>
+        <h2 class="feedback__title">COMENTARIOS</h2>
         <form action="{{ url_for('submit_form')}}" method="POST" class="feedback__form form">
           <label for="email">
             <input type="email" class="form__input" name="email" id="email" placeholder="E-mail" required>

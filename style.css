@@ -15,8 +15,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2em;
-  background: linear-gradient(180deg, #F8F2DC 0%, rgba(57, 38, 87, 0.8) 100%);
-  color: #331B63;
+  background: linear-gradient(180deg, #f1f1f1 15%, hsla(85, 94%, 58%, 0.526) 85%);
+  color: #059c73d0;
 }
 
 h1,
@@ -76,7 +76,7 @@ ul {
   width: 55%;
   height: 3px;
   bottom: -12px;
-  background: #6C3F75;
+  background: #3e948a;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -84,28 +84,32 @@ ul {
   width: 100%;
 }
 
-.home {
+.entrada {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/developer.png);
-  background-size: cover;
+  background-image: url(../img/eco-alegria-titulo.png);
+  background-size: 1450px 670px;
+  background-repeat: no-repeat;
   padding: 10vh 10vw 80vh 10vw;
   background-position: center bottom;
   gap: 20px;
 }
 
-.home__title {
+
+
+
+.entrada__title {
   letter-spacing: 0.3em;
   font-size: 70px;
   text-align: center;
-  color: #a178b9;
+  color: #4a4344;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.home__subtitle {
+.__subtitle {
   font-weight: 700;
   font-size: 24px;
   text-align: center;
@@ -120,7 +124,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #9bc3eb;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -133,7 +137,7 @@ ul {
   position: absolute;
   content: "";
   border-radius: 10px;
-  width: 60%;
+  width: 100%;
   height: 1px;
   bottom: -13px;
   background: #fff;
@@ -143,14 +147,29 @@ ul {
 .info-block {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .info-block__text {
-  width: 40%;
+  width: 90%;
+  font-size: 22px;
+  color: #333;
+  
+  
 }
 
+  
+
+
 .info-block__img {
+  width: 80%;
   align-self: center;
+  transition: transform 0.3s;
+  
+}
+
+.info-block__img:hover {
+  transform: scale(1.30); /* Aumenta el tamaño al pasar el cursor */
 }
 
 .skills {
@@ -164,7 +183,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #9bc3eb;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -177,13 +196,20 @@ ul {
   position: absolute;
   content: "";
   border-radius: 10px;
-  width: 60%;
+  width: 100%;
   height: 1px;
   bottom: -13px;
   background: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.skill__img {
+  transition: transform 0.3s;
+}
+
+.skill__img:hover {
+  transform: scale(1.20); /* Aumenta el tamaño al pasar el cursor */
+}
 
 .skills-list {
   display: flex;
@@ -214,8 +240,55 @@ ul {
   transition: 0.2s;
 }
 
+.skill__buttonn {
+  font: inherit;
+  font-weight: 700;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.skill__buttonnn {
+  font: inherit;
+  font-weight: 700;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.skill__buttonnnn {
+  font: inherit;
+  font-weight: 700;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
 .skill__button:hover {
-  color: #cc8bf2;
+  color: #ff0000;
+}
+
+.skill__buttonn:hover {
+  color: #0055ff;
+}
+
+.skill__buttonnn:hover {
+  color: #00ff3c;
+}
+
+.skill__buttonnnn:hover {
+  color: #000000;
+}
+
+.skill-project_text {
+  color: #000000;
+  width: 80%;
+  font-size: 20px;
+
 }
 
 .project {
@@ -239,6 +312,14 @@ ul {
   align-items: center;
 }
 
+.project__linkk {
+  position: relative;
+  font-size: 17px;
+  font-weight: 700;
+  flex-direction: column;
+  
+}
+
 .project__link::after {
   position: absolute;
   transition: 0.2s;
@@ -247,7 +328,7 @@ ul {
   width: 55%;
   height: 3px;
   bottom: -12px;
-  background: #a178b9;
+  background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -266,7 +347,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #64abf1;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -279,7 +360,7 @@ ul {
   position: absolute;
   content: "";
   border-radius: 10px;
-  width: 60%;
+  width: 100%;
   height: 1px;
   bottom: -13px;
   background: #fff;
@@ -301,16 +382,16 @@ ul {
 .form__input {
   width: 100%;
   font: inherit;
-  background: #392657;
-  border: 2px solid #a178b9;
-  color: #fff;
+  background: linear-gradient(111.97deg, #dcfffd 35.63%, rgb(244, 229, 252) 150.16%);
+  border: 2px solid #003c0d;
+  color: #000000;
   padding: 15px;
   border-radius: 10px;
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
 }
 
 .form__input::placeholder {
-  color: #fff;
+  color: #000000;
 }
 
 .form__input:active,
@@ -323,11 +404,11 @@ ul {
 .form__button {
   font: inherit;
   font-weight: 800;
-  color: #fff;
-  background: linear-gradient(111.97deg, #CC8BF2 35.63%, rgba(204, 139, 242, 0) 150.16%);
+  color: #000000;
+  background: linear-gradient(111.97deg, #8bf2f0 35.63%, rgba(204, 139, 242, 0) 150.16%);
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
   padding: 15px 30px;
   border-radius: 20px;
-  border: none;
+  border: 2px solid #003c0d;
   cursor: pointer;
 }
